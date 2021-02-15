@@ -14,11 +14,5 @@ int main() {
     {
         printf("%d ",i);
     }
-    printf("\n");
-    for(int i=1,j=1;i<=5 && j<=10;i++,j+=2)
-    {
-        printf("%d %d\n",dodawanie(i,j),mnozenie(i,j));
-    }
-
     return 0;
 }
